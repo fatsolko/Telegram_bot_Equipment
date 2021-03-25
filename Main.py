@@ -17,5 +17,8 @@ def send_text(message):
     elif message.text.lower() == 'пока':
         bot.send_message(message.chat.id, 'Прощай, создатель')
 
-
+#https://mastergroosha.github.io/telegram-tutorial/
+#https://habr.com/ru/users/dimagorovtsov/posts/
+#https://python-telegram-bot.readthedocs.io/en/stable/telegram.html
+#https://habr.com/ru/post/442800/
 bot.polling()
