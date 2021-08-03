@@ -16,7 +16,7 @@ def help(message):
 def reply(message):
     a={}
     print(type(a))
-
+    # sd
     # print(message.json['from'])
     # print(message.json['from']['is_bot'])
     # print(message, sep="\n")
